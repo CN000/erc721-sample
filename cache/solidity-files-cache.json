@@ -1,0 +1,794 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\mocks\\nf-token-enumerable-mock.sol": {
+      "lastModificationDate": 1630912116657,
+      "contentHash": "a4bca4f87d9be1a5c661a3f82f636c43",
+      "sourceName": "src/contracts/mocks/nf-token-enumerable-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/tokens/nf-token-enumerable.sol",
+        "../ownership/ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenEnumerableMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\nf-token-enumerable.sol": {
+      "lastModificationDate": 1630912116672,
+      "contentHash": "17ea81b6006e292c139ee04cd0ca3373",
+      "sourceName": "src/contracts/tokens/nf-token-enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./nf-token.sol",
+        "./erc721-enumerable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenEnumerable"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\ownership\\ownable.sol": {
+      "lastModificationDate": 1630912116665,
+      "contentHash": "91330d4981d512338bb62f2e660eb2cd",
+      "sourceName": "src/contracts/ownership/ownable.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\nf-token.sol": {
+      "lastModificationDate": 1630912116675,
+      "contentHash": "ffc7c59a2a8d5b7e485127a798c9b882",
+      "sourceName": "src/contracts/tokens/nf-token.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./erc721.sol",
+        "./erc721-token-receiver.sol",
+        "../utils/supports-interface.sol",
+        "../utils/address-utils.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFToken"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\erc721-enumerable.sol": {
+      "lastModificationDate": 1630912116667,
+      "contentHash": "c20ba202ba1ec2542484e63b7ad821dc",
+      "sourceName": "src/contracts/tokens/erc721-enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "ERC721Enumerable"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\erc721.sol": {
+      "lastModificationDate": 1630912116671,
+      "contentHash": "ac61620129af55dd21c8f93f9b7f3d58",
+      "sourceName": "src/contracts/tokens/erc721.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\erc721-token-receiver.sol": {
+      "lastModificationDate": 1630912116670,
+      "contentHash": "ffc4453768721dd58eb6c3d9d142d4e8",
+      "sourceName": "src/contracts/tokens/erc721-token-receiver.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\utils\\supports-interface.sol": {
+      "lastModificationDate": 1630912116679,
+      "contentHash": "23d6ddb32978fae0136661187c95a98a",
+      "sourceName": "src/contracts/utils/supports-interface.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./erc165.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "SupportsInterface"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\utils\\address-utils.sol": {
+      "lastModificationDate": 1630912116677,
+      "contentHash": "02fd2e7a885cd7b6a2e566453ad25f69",
+      "sourceName": "src/contracts/utils/address-utils.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "AddressUtils"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\utils\\erc165.sol": {
+      "lastModificationDate": 1630912116678,
+      "contentHash": "0b44a6c3fbe5b2c71eb3dae6be0c3b17",
+      "sourceName": "src/contracts/utils/erc165.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\nf-token-enumerable-test-mock.sol": {
+      "lastModificationDate": 1630912116683,
+      "contentHash": "a85a8f39c3003e7cce1e063e410a36f3",
+      "sourceName": "src/tests/mocks/nf-token-enumerable-test-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/mocks/nf-token-enumerable-mock.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenEnumerableTestMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\mocks\\nf-token-mock.sol": {
+      "lastModificationDate": 1630912116662,
+      "contentHash": "42d0859e65d14a79ce2cb764f23b0ff1",
+      "sourceName": "src/contracts/mocks/nf-token-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/tokens/nf-token.sol",
+        "../ownership/ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\sends-to-self-on-construct.sol": {
+      "lastModificationDate": 1630912116689,
+      "contentHash": "cedd855c4f9f6293929890a2d4e74e92",
+      "sourceName": "src/tests/mocks/sends-to-self-on-construct.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/mocks/nf-token-mock.sol",
+        "./nf-token-receiver-test-mock.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "SendsToSelfOnConstruct"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\nf-token-receiver-test-mock.sol": {
+      "lastModificationDate": 1630912116687,
+      "contentHash": "c81382f741da281afb1b0b7c3a152bee",
+      "sourceName": "src/tests/mocks/nf-token-receiver-test-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/tokens/erc721-token-receiver.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenReceiverTestMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\nf-token-metadata.sol": {
+      "lastModificationDate": 1630912116674,
+      "contentHash": "1d36d601dd28f74730ccd5b42487f0a2",
+      "sourceName": "src/contracts/tokens/nf-token-metadata.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./nf-token.sol",
+        "./erc721-metadata.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadata"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\tokens\\erc721-metadata.sol": {
+      "lastModificationDate": 1630912116668,
+      "contentHash": "5f6d14d5984eb4286255513ba436baf6",
+      "sourceName": "src/contracts/tokens/erc721-metadata.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "ERC721Metadata"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\mocks\\nf-token-metadata-mock.sol": {
+      "lastModificationDate": 1630912116660,
+      "contentHash": "114b3d910952c2e70177b48ed2037650",
+      "sourceName": "src/contracts/mocks/nf-token-metadata-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../tokens/nf-token-metadata.sol",
+        "../ownership/ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadataMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\nf-token-metadata-test-mock.sol": {
+      "lastModificationDate": 1630912116685,
+      "contentHash": "65f11c7dd401b5d4534aec0d8f75c76b",
+      "sourceName": "src/tests/mocks/nf-token-metadata-test-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/mocks/nf-token-metadata-mock.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadataTestMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\contracts\\mocks\\nf-token-metadata-enumerable-mock.sol": {
+      "lastModificationDate": 1630912116659,
+      "contentHash": "00b2610e1c8bdb649f07ca3de41170f9",
+      "sourceName": "src/contracts/mocks/nf-token-metadata-enumerable-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../tokens/nf-token-metadata.sol",
+        "../tokens/nf-token-enumerable.sol",
+        "../ownership/ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadataEnumerableMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\nf-token-metadata-enumerable-test-mock.sol": {
+      "lastModificationDate": 1630912116684,
+      "contentHash": "faccd82dc1f8d012fc812f89f586ca0c",
+      "sourceName": "src/tests/mocks/nf-token-metadata-enumerable-test-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/mocks/nf-token-metadata-enumerable-mock.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenMetadataEnumerableTestMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\address-utils-mock.sol": {
+      "lastModificationDate": 1630912116682,
+      "contentHash": "4644c4ad6a0da7295dc61d6e7762f5bd",
+      "sourceName": "src/tests/mocks/address-utils-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/utils/address-utils.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "AddressUtilsMock"
+      ]
+    },
+    "D:\\www-solidity\\ethereum-erc721\\src\\tests\\mocks\\nf-token-test-mock.sol": {
+      "lastModificationDate": 1630912116688,
+      "contentHash": "e02a01c28cd36adfe0724bc66dace82e",
+      "sourceName": "src/tests/mocks/nf-token-test-mock.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/mocks/nf-token-mock.sol"
+      ],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "NFTokenTestMock"
+      ]
+    }
+  }
+}
